@@ -13,6 +13,13 @@
 		9A0AC15E25CB38C1001407F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0AC15C25CB38C1001407F4 /* Main.storyboard */; };
 		9A0AC16025CB38C3001407F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A0AC15F25CB38C3001407F4 /* Assets.xcassets */; };
 		9A0AC16325CB38C3001407F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0AC16125CB38C3001407F4 /* LaunchScreen.storyboard */; };
+		9A0AC16C25CB3DF3001407F4 /* Placemark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0AC16B25CB3DF3001407F4 /* Placemark.swift */; };
+		9A0AC17525CB45BA001407F4 /* PlacemarkDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0AC17425CB45BA001407F4 /* PlacemarkDetailsViewController.swift */; };
+		9A0AC17825CDCE9D001407F4 /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0AC17725CDCE9D001407F4 /* PopoverViewController.swift */; };
+		9A0AC17C25CDDF50001407F4 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0AC17B25CDDF50001407F4 /* PopupViewController.swift */; };
+		9A0AC17F25CE7A89001407F4 /* CalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0AC17E25CE7A89001407F4 /* CalloutView.swift */; };
+		9A0AC18225CE7BC5001407F4 /* CustomAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0AC18125CE7BC5001407F4 /* CustomAnnotationView.swift */; };
+		9A0AC18525CE7C19001407F4 /* ExampleCalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0AC18425CE7C19001407F4 /* ExampleCalloutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		9A0AC15F25CB38C3001407F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A0AC16225CB38C3001407F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A0AC16425CB38C3001407F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A0AC16B25CB3DF3001407F4 /* Placemark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placemark.swift; sourceTree = "<group>"; };
+		9A0AC17425CB45BA001407F4 /* PlacemarkDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacemarkDetailsViewController.swift; sourceTree = "<group>"; };
+		9A0AC17725CDCE9D001407F4 /* PopoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverViewController.swift; sourceTree = "<group>"; };
+		9A0AC17B25CDDF50001407F4 /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		9A0AC17E25CE7A89001407F4 /* CalloutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalloutView.swift; sourceTree = "<group>"; };
+		9A0AC18125CE7BC5001407F4 /* CustomAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotationView.swift; sourceTree = "<group>"; };
+		9A0AC18425CE7C19001407F4 /* ExampleCalloutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleCalloutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +70,20 @@
 		9A0AC15525CB38C1001407F4 /* MapsPlayground */ = {
 			isa = PBXGroup;
 			children = (
-				9A0AC15625CB38C1001407F4 /* AppDelegate.swift */,
-				9A0AC15825CB38C1001407F4 /* SceneDelegate.swift */,
 				9A0AC15A25CB38C1001407F4 /* ViewController.swift */,
 				9A0AC15C25CB38C1001407F4 /* Main.storyboard */,
+				9A0AC16B25CB3DF3001407F4 /* Placemark.swift */,
+				9A0AC15625CB38C1001407F4 /* AppDelegate.swift */,
+				9A0AC15825CB38C1001407F4 /* SceneDelegate.swift */,
 				9A0AC15F25CB38C3001407F4 /* Assets.xcassets */,
 				9A0AC16125CB38C3001407F4 /* LaunchScreen.storyboard */,
 				9A0AC16425CB38C3001407F4 /* Info.plist */,
+				9A0AC17425CB45BA001407F4 /* PlacemarkDetailsViewController.swift */,
+				9A0AC17725CDCE9D001407F4 /* PopoverViewController.swift */,
+				9A0AC17B25CDDF50001407F4 /* PopupViewController.swift */,
+				9A0AC17E25CE7A89001407F4 /* CalloutView.swift */,
+				9A0AC18125CE7BC5001407F4 /* CustomAnnotationView.swift */,
+				9A0AC18425CE7C19001407F4 /* ExampleCalloutView.swift */,
 			);
 			path = MapsPlayground;
 			sourceTree = "<group>";
@@ -137,9 +158,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A0AC17525CB45BA001407F4 /* PlacemarkDetailsViewController.swift in Sources */,
 				9A0AC15B25CB38C1001407F4 /* ViewController.swift in Sources */,
 				9A0AC15725CB38C1001407F4 /* AppDelegate.swift in Sources */,
+				9A0AC17F25CE7A89001407F4 /* CalloutView.swift in Sources */,
+				9A0AC18525CE7C19001407F4 /* ExampleCalloutView.swift in Sources */,
+				9A0AC16C25CB3DF3001407F4 /* Placemark.swift in Sources */,
+				9A0AC17825CDCE9D001407F4 /* PopoverViewController.swift in Sources */,
 				9A0AC15925CB38C1001407F4 /* SceneDelegate.swift in Sources */,
+				9A0AC18225CE7BC5001407F4 /* CustomAnnotationView.swift in Sources */,
+				9A0AC17C25CDDF50001407F4 /* PopupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

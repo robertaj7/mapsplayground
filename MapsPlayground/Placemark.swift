@@ -27,9 +27,9 @@ class Placemark {
     
     static func mock() -> [Placemark] {
         return [
-            Placemark(name: "Bashkia", latitude: 43.312342323, longitude: 19.321423423),
-            Placemark(name: "Ministria 1", latitude: 43.2332423342, longitude: 19.2342353),
-            Placemark(name: "Ministria 2", latitude: 43.234234234, longitude: 19.3342234),
+            Placemark(name: "Bashkia", latitude: 41.3274082, longitude: 19.8171285),
+            Placemark(name: "Ministria 1", latitude: 41.3300837, longitude: 19.8297348),
+            Placemark(name: "Ministria 2", latitude: 41.3325816, longitude: 19.8146956),
         ]
     }
     

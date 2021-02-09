@@ -15,15 +15,12 @@ class PopoverViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    // Now for making work scrollView from storyboard you should:
+    
+//    1. Put a scroll view into the view controller and set constraints (leading, top, trailing, bottom - all 0)
+//    2. Put a view(contentView) inside the scroll view and set constraints (leading, top, trailing, bottom - all 0)
+//    3. In views hierarchy, do ctrl drag from new View(contentView) to Content Layout guide of scrollView and in the appeared context menu choose all constraints (leading, top, trailing, bottom - all 0)
+//    4. If we want to make the scrollview scroll only vertically, create an equal width constraint between the view and the scrollview's Frame Layout guide (for horizontally create equal height constraint)
+//    5. Place all your content view elements inside it and create all vertical constraints in the way that the top and the bottom of the contentView must be connected by constraints inside it.
 
 }
